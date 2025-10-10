@@ -8,6 +8,7 @@ def registrar_contenedor(contenedores, id, llenado, temperatura, uso):
     }
     return "Contenedor registrado."
 
+
 def actualizar_contenedor(contenedores, id, llenado=None, temperatura=None, uso=None):
     if id not in contenedores:
         return "Error: el contenedor no existe."
